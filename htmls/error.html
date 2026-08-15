@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Unavailable</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .icon {
+        font-size: 48px;
+        color: #f85149;
+        margin-bottom: 16px;
+      }
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #f85149;
+      }
+      p {
+        font-size: 14px;
+        color: #8b949e;
+        margin-bottom: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="icon">&#9888;</div>
+    <h1>Backend Unavailable</h1>
+    <p>Could not connect to service at http://127.0.0.1:5566</p>
+    <p>Retrying connection automatically in background...</p>
+  </body>
+</html>
