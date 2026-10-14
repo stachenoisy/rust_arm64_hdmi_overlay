@@ -8,7 +8,7 @@ use std::thread;
 use std::time::{Duration, Instant};
 use webkit2gtk::{SettingsExt, WebView, WebViewExt};
 
-const BACKEND_URL: &str = "http://127.0.0.1:5566";
+const BACKEND_URL: &str = "http://127.0.0.1/local";
 const BOOT_HTML: &str = "file:///opt/interface/static/htmls/boot.html";
 const ERROR_HTML: &str = "file:///opt/interface/static/htmls/error.html";
 const BOOT_TIMEOUT_SECS: u64 = 10;
